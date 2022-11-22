@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(../asset/img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+}
+
+/* navbar */
+
+.navbar_menu {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+
+}
+
+.icerik p {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu>li>a {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.menu>li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.baslik {
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+}
+
+.icerik {
+    width: 90%;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: right;
+}
+
+.content p,
+h3 {
+    text-align: center;
+}
+
+section h2 {
+    margin: 20px;
+}
