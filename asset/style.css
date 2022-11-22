@@ -70,4 +70,28 @@ h3 {
 
 section h2 {
     margin: 20px;
+    text-align: center;
+}
+
+img {
+    margin-left: 70px;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.footer_icons i {
+    padding: 5px;
+    color: rgb(67, 67, 196);
+}
+
+.footer_icons {
+    text-align: center;
 }
